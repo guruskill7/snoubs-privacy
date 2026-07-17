@@ -1,0 +1,292 @@
+<title>BibliaTab Notebook — Privacy Policy</title>
+<style>
+  :root {
+    --paper: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #0e1630;
+    --ink-soft: #3a4358;
+    --ink-faint: #6b7488;
+    --gold: #b8873b;
+    --gold-soft: #c9a765;
+    --rule: #e4e6ec;
+    --rule-strong: #d2d5de;
+    --shadow: 0 1px 2px rgba(14,22,48,.05), 0 8px 30px rgba(14,22,48,.06);
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0b1020;
+      --surface: #121a30;
+      --ink: #edf0f6;
+      --ink-soft: #b7bfd2;
+      --ink-faint: #808aa2;
+      --gold: #d3ab63;
+      --gold-soft: #b8873b;
+      --rule: #232c46;
+      --rule-strong: #2c3654;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 34px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #f6f7f9; --surface: #ffffff; --ink: #0e1630; --ink-soft: #3a4358;
+    --ink-faint: #6b7488; --gold: #b8873b; --gold-soft: #c9a765; --rule: #e4e6ec;
+    --rule-strong: #d2d5de; --shadow: 0 1px 2px rgba(14,22,48,.05), 0 8px 30px rgba(14,22,48,.06);
+  }
+  :root[data-theme="dark"] {
+    --paper: #0b1020; --surface: #121a30; --ink: #edf0f6; --ink-soft: #b7bfd2;
+    --ink-faint: #808aa2; --gold: #d3ab63; --gold-soft: #b8873b; --rule: #232c46;
+    --rule-strong: #2c3654; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 34px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  header.masthead {
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 2.5rem;
+    padding: 3.25rem 0 2rem;
+  }
+  .brand {
+    display: flex; align-items: center; gap: .8rem;
+    font-family: var(--serif);
+    font-size: 1.05rem; font-weight: 600; letter-spacing: .01em;
+    color: var(--ink);
+  }
+  .brand .mark {
+    width: 30px; height: 30px; border-radius: 7px; flex: none;
+    background:
+      radial-gradient(120% 120% at 30% 20%, var(--gold-soft), var(--gold) 60%, #8a6326 100%);
+    display: grid; place-items: center;
+    color: #fff8e7; font-family: var(--serif); font-weight: 700; font-size: 15px;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.4), 0 1px 2px rgba(0,0,0,.2);
+  }
+  .eyebrow {
+    margin: 1.9rem 0 .5rem;
+    font-size: .72rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--gold);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600; font-size: clamp(2rem, 5vw, 2.85rem); line-height: 1.1;
+    letter-spacing: -.01em; text-wrap: balance;
+    margin: 0 0 1rem;
+  }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: .5rem 1.5rem;
+    font-size: .9rem; color: var(--ink-faint);
+  }
+  .meta b { color: var(--ink-soft); font-weight: 600; }
+
+  .lede {
+    font-size: 1.12rem; line-height: 1.6; color: var(--ink-soft);
+    margin: 0 0 2.5rem;
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600; font-size: 1.42rem; letter-spacing: -.005em;
+    text-wrap: balance;
+    margin: 2.9rem 0 .85rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--rule);
+    display: flex; gap: .7rem; align-items: baseline;
+  }
+  h2 .num {
+    font-size: .82rem; font-weight: 700; color: var(--gold);
+    font-family: var(--sans); letter-spacing: .04em;
+    font-variant-numeric: tabular-nums;
+    flex: none; padding-top: .18rem;
+  }
+  h3 {
+    font-family: var(--sans);
+    font-weight: 700; font-size: 1rem; letter-spacing: .005em;
+    margin: 1.7rem 0 .4rem; color: var(--ink);
+  }
+  p { margin: 0 0 1rem; }
+  a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--ink); }
+  strong { color: var(--ink); font-weight: 650; }
+
+  ul { margin: 0 0 1rem; padding-left: 0; list-style: none; }
+  ul li {
+    position: relative; padding-left: 1.3rem; margin-bottom: .55rem;
+  }
+  ul li::before {
+    content: ""; position: absolute; left: .1rem; top: .72em;
+    width: 5px; height: 5px; border-radius: 50%; background: var(--gold);
+  }
+
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-left: 3px solid var(--gold);
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow);
+    font-size: .96rem; color: var(--ink-soft);
+  }
+  .callout strong { color: var(--ink); }
+
+  .table-scroll { overflow-x: auto; margin: 1.3rem 0 1.6rem; }
+  table {
+    width: 100%; border-collapse: collapse; font-size: .92rem;
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-radius: 10px; overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  th, td { text-align: left; padding: .7rem .95rem; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  th {
+    font-size: .72rem; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 700; background: color-mix(in srgb, var(--gold) 6%, var(--surface));
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td b { color: var(--ink); }
+
+  footer.foot {
+    margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--rule);
+    font-size: .85rem; color: var(--ink-faint);
+  }
+  footer.foot a { color: var(--ink-soft); }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="brand"><span class="mark">B</span> BibliaTab&nbsp;Notebook</div>
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>Your notes are yours. Here's exactly what we handle and why.</h1>
+    <div class="meta">
+      <span><b>Effective:</b> June 28, 2026</span>
+      <span><b>Applies to:</b> BibliaTab Notebook (Android)</span>
+      <span><b>Developer:</b> BibliaTab</span>
+    </div>
+  </header>
+
+  <p class="lede">
+    BibliaTab Notebook is a note‑taking app. Most of what you create — notes, drawings,
+    voice memos, to‑dos — lives on your own device. This policy explains the limited data we
+    collect when you sign in or use cloud features, who processes it, and the control you have
+    over it.
+  </p>
+
+  <h2><span class="num">01</span> Who we are</h2>
+  <p>
+    BibliaTab Notebook ("the app", "we", "us") is an Android application published by BibliaTab
+    ("the developer"). This policy covers the app and its optional cloud features. It does not
+    cover third‑party services you choose to connect (such as your Google account), which are
+    governed by their own privacy policies.
+  </p>
+
+  <h2><span class="num">02</span> Information we collect</h2>
+  <p>We collect only what a feature needs to work. We do <strong>not</strong> sell your data, and we do <strong>not</strong> show third‑party ads.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Category</th><th>What it includes</th><th>Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>Account information</b></td><td>Email address, display name, and profile photo — when you create an account or sign in with Google.</td><td>To authenticate you and sync your profile across devices.</td></tr>
+        <tr><td><b>Your content</b></td><td>Notes, titles, drawings, images, audio/video notes, to‑dos, tags, notebooks.</td><td>Stored on your device. Synced or backed up only if you enable cloud sync/backup.</td></tr>
+        <tr><td><b>Purchase information</b></td><td>Your Pro subscription/purchase status (via Google Play Billing). We never see your card details.</td><td>To unlock and restore premium features you've bought.</td></tr>
+        <tr><td><b>Usage &amp; diagnostics</b></td><td>Anonymous app‑usage and stability data via Google Firebase Analytics (e.g. feature usage, crashes, device type).</td><td>To fix bugs and improve the app.</td></tr>
+        <tr><td><b>On‑device security</b></td><td>Your app‑lock PIN (stored only as a salted hash) and biometric preference.</td><td>Never leaves your device. We cannot read your PIN.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>Local‑first by default.</strong> If you never sign in or turn on cloud features, your
+    notes stay on your device and are not transmitted to us or anyone else.
+  </div>
+
+  <h2><span class="num">03</span> How we use your information</h2>
+  <ul>
+    <li>To provide core features — creating, editing, organizing, and searching your notes.</li>
+    <li>To authenticate you and keep your profile consistent across devices.</li>
+    <li>To sync and back up your content <em>only when you enable those features</em>.</li>
+    <li>To process and restore in‑app purchases through Google Play.</li>
+    <li>To diagnose crashes and understand which features are used, so we can improve the app.</li>
+  </ul>
+  <p>We do not use your notes' content to build advertising profiles, and we do not sell or rent your personal information to anyone.</p>
+
+  <h2><span class="num">04</span> Where your data is stored</h2>
+  <h3>On your device</h3>
+  <p>Notes, media, drawings, and to‑dos are stored locally in the app's private storage. Your app‑lock PIN is stored only as a one‑way salted hash.</p>
+  <h3>Cloud sync &amp; account (optional)</h3>
+  <p>If you sign in, your account profile is handled by <strong>Google Firebase</strong> (Authentication and Firestore). If you enable sync, note data associated with your account may be stored in Firebase to keep devices in sync.</p>
+  <h3>Backups to your own Google Drive (optional)</h3>
+  <p>If you turn on Google Drive backup, the app writes backup files to <strong>your own Google Drive</strong> using access you grant. Those files live in your Drive, under your control — we do not keep a separate copy. You can also back up to a local folder you choose on your device.</p>
+
+  <h2><span class="num">05</span> Third‑party services</h2>
+  <p>We rely on a small number of reputable providers to deliver these features. Each processes data under its own privacy policy:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Analytics) — accounts, optional sync, and anonymous diagnostics.</li>
+    <li><strong>Google Play Billing</strong> — processes purchases; we receive only your entitlement status, never payment details.</li>
+    <li><strong>Google Drive API</strong> — used only to store backups in your own Drive when you enable it.</li>
+  </ul>
+  <p>See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for how Google processes this data.</p>
+
+  <h2><span class="num">06</span> Permissions we request</h2>
+  <p>Android asks your consent before granting these. Each is used only for the stated feature, and most are optional:</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Permission</th><th>Used for</th></tr></thead>
+      <tbody>
+        <tr><td><b>Camera</b></td><td>Taking photos and recording video notes.</td></tr>
+        <tr><td><b>Microphone</b></td><td>Recording voice notes.</td></tr>
+        <tr><td><b>Photos &amp; media</b></td><td>Attaching images/audio/video you pick, and saving exports.</td></tr>
+        <tr><td><b>Notifications</b></td><td>To‑do and reminder alerts you set.</td></tr>
+        <tr><td><b>Biometric / fingerprint</b></td><td>Unlocking the app lock, if you enable it. Handled by Android on‑device.</td></tr>
+        <tr><td><b>Internet &amp; network</b></td><td>Sign‑in, sync, backup, and purchases.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><span class="num">07</span> Security</h2>
+  <p>We take reasonable measures to protect your information: sign‑in traffic is encrypted in transit (HTTPS/TLS), your app‑lock PIN is stored only as a salted hash, and optional app lock with PIN or biometrics adds an on‑device barrier. No method of transmission or storage is 100% secure, but we work to protect your data using industry‑standard safeguards.</p>
+
+  <h2><span class="num">08</span> Data retention &amp; deletion</h2>
+  <ul>
+    <li><strong>Trash:</strong> deleted notes stay in Trash so you can restore them, then are removed when you empty Trash.</li>
+    <li><strong>On‑device data:</strong> uninstalling the app removes local notes and media from your device. Export or back up first if you want to keep them.</li>
+    <li><strong>Account data:</strong> you can request deletion of your account and associated cloud data at any time (see Contact). We will delete it within 30 days, except where retention is legally required.</li>
+    <li><strong>Drive backups:</strong> delete them yourself from your Google Drive whenever you wish.</li>
+  </ul>
+
+  <h2><span class="num">09</span> Your rights &amp; choices</h2>
+  <ul>
+    <li><strong>Access &amp; export:</strong> export your notes as PDF, Markdown, or JSON from Settings → Export.</li>
+    <li><strong>Correct:</strong> edit your profile in the app at any time.</li>
+    <li><strong>Delete:</strong> clear individual notes, empty Trash, or request full account deletion.</li>
+    <li><strong>Opt out of cloud:</strong> simply don't sign in or don't enable sync/backup — the app works fully offline.</li>
+  </ul>
+  <p>Depending on where you live, you may have additional rights under laws such as the GDPR or CCPA. Contact us to exercise them.</p>
+
+  <h2><span class="num">10</span> Children's privacy</h2>
+  <p>BibliaTab Notebook is not directed to children under 13 (or the minimum age of digital consent in your country). We do not knowingly collect personal information from children. If you believe a child has provided us personal data, contact us and we will delete it.</p>
+
+  <h2><span class="num">11</span> Changes to this policy</h2>
+  <p>We may update this policy as the app evolves. Material changes will be reflected by updating the "Effective" date above and, where appropriate, an in‑app notice. Continued use after an update means you accept the revised policy.</p>
+
+  <h2><span class="num">12</span> Contact us</h2>
+  <p>Questions, requests, or data‑deletion inquiries:</p>
+  <ul>
+    <li>Email: <a href="mailto:snoubsdevstudio@gmail.com">snoubsdevstudio@gmail.com</a></li>
+  </ul>
+
+  <footer class="foot">
+    <p>© 2026 BibliaTab. BibliaTab Notebook for Android. This policy is provided for transparency and does not constitute legal advice.</p>
+  </footer>
+</div>
