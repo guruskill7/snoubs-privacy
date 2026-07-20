@@ -1,0 +1,131 @@
+<title>BibliaTab Notebook — Delete Your Account</title>
+<style>
+  :root {
+    --paper:#f6f7f9; --surface:#fff; --ink:#0e1630; --ink-soft:#3a4358; --ink-faint:#6b7488;
+    --gold:#b8873b; --rule:#e4e6ec; --rule-strong:#d2d5de;
+    --shadow:0 1px 2px rgba(14,22,48,.05),0 8px 30px rgba(14,22,48,.06);
+    --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{--paper:#0b1020;--surface:#121a30;--ink:#edf0f6;--ink-soft:#b7bfd2;--ink-faint:#808aa2;
+      --gold:#d3ab63;--rule:#232c46;--rule-strong:#2c3654;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 34px rgba(0,0,0,.35);}
+  }
+  :root[data-theme="light"]{--paper:#f6f7f9;--surface:#fff;--ink:#0e1630;--ink-soft:#3a4358;
+    --ink-faint:#6b7488;--gold:#b8873b;--rule:#e4e6ec;--rule-strong:#d2d5de;}
+  :root[data-theme="dark"]{--paper:#0b1020;--surface:#121a30;--ink:#edf0f6;--ink-soft:#b7bfd2;
+    --ink-faint:#808aa2;--gold:#d3ab63;--rule:#232c46;--rule-strong:#2c3654;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    font-size:17px;line-height:1.68;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem 4rem}
+  header{border-bottom:1px solid var(--rule);margin-bottom:2.25rem;padding:3rem 0 1.75rem}
+  .brand{display:flex;align-items:center;gap:.75rem;font-family:var(--serif);
+    font-size:1.02rem;font-weight:600;color:var(--ink)}
+  .brand .mark{width:30px;height:30px;border-radius:7px;flex:none;display:grid;place-items:center;
+    background:radial-gradient(120% 120% at 30% 20%,#c9a765,var(--gold) 60%,#8a6326 100%);
+    color:#fff8e7;font-family:var(--serif);font-weight:700;font-size:15px}
+  .eyebrow{margin:1.7rem 0 .45rem;font-size:.72rem;font-weight:700;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--gold)}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;
+    margin:0 0 .9rem;text-wrap:balance}
+  .meta{font-size:.9rem;color:var(--ink-faint)}
+  .lede{font-size:1.1rem;color:var(--ink-soft);margin:0 0 2rem}
+  h2{font-family:var(--serif);font-weight:600;font-size:1.35rem;margin:2.5rem 0 .8rem;
+    padding-top:1.5rem;border-top:1px solid var(--rule);display:flex;gap:.65rem;align-items:baseline}
+  h2 .num{font-family:var(--sans);font-size:.8rem;font-weight:700;color:var(--gold);
+    font-variant-numeric:tabular-nums;flex:none}
+  p{margin:0 0 1rem}
+  a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+  ol.steps{counter-reset:s;list-style:none;padding:0;margin:0 0 1rem}
+  ol.steps li{position:relative;padding-left:2.4rem;margin-bottom:.85rem}
+  ol.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:.1em;
+    width:1.6rem;height:1.6rem;border-radius:50%;background:var(--gold);color:#fff;
+    display:grid;place-items:center;font-size:.85rem;font-weight:700}
+  .callout{background:var(--surface);border:1px solid var(--rule-strong);border-left:3px solid var(--gold);
+    border-radius:10px;padding:1rem 1.25rem;margin:1.4rem 0;box-shadow:var(--shadow);
+    font-size:.96rem;color:var(--ink-soft)}
+  .callout strong{color:var(--ink)}
+  .table-scroll{overflow-x:auto;margin:1.2rem 0}
+  table{width:100%;border-collapse:collapse;font-size:.93rem;background:var(--surface);
+    border:1px solid var(--rule-strong);border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
+  th,td{text-align:left;padding:.7rem .95rem;vertical-align:top;border-bottom:1px solid var(--rule)}
+  th{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);
+    font-weight:700;background:color-mix(in srgb,var(--gold) 6%,var(--surface))}
+  tbody tr:last-child td{border-bottom:none}
+  footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--rule);
+    font-size:.85rem;color:var(--ink-faint)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><span class="mark">B</span> BibliaTab&nbsp;Notebook <span style="color:var(--ink-faint);font-weight:400">· Snoubs Dev Studio</span></div>
+    <div class="eyebrow">Account &amp; Data Deletion</div>
+    <h1>How to delete your BibliaTab Notebook account and data</h1>
+    <div class="meta">Last updated: July 17, 2026</div>
+  </header>
+
+  <p class="lede">
+    You can delete your <strong>BibliaTab Notebook</strong> account and all associated data at any
+    time, directly inside the app. This page explains exactly how, and what is removed.
+  </p>
+
+  <h2><span class="num">01</span> Delete your account from inside the app</h2>
+  <ol class="steps">
+    <li>Open <strong>BibliaTab Notebook</strong> on your device.</li>
+    <li>Go to <strong>Settings</strong> (from the Profile tab, or the gear icon).</li>
+    <li>Under <strong>Account</strong>, tap <strong>Delete Account</strong>.</li>
+    <li>Read the confirmation, type <strong>DELETE</strong> to confirm, then tap <strong>Delete forever</strong>.</li>
+  </ol>
+  <div class="callout">
+    <strong>This is immediate and permanent.</strong> Your account and its data are removed right
+    away — there is no recovery. Export your notes first (Settings → Export Notes) if you want to
+    keep a copy.
+  </div>
+
+  <h2><span class="num">02</span> Or request deletion by email</h2>
+  <p>
+    If you can't access the app, email
+    <a href="mailto:snoubsdevstudio@gmail.com">snoubsdevstudio@gmail.com</a> from the address
+    registered to your account, with the subject <strong>"Delete my account"</strong>.
+    We will verify ownership and delete the account within <strong>30 days</strong>.
+  </p>
+
+  <h2><span class="num">03</span> What is deleted, and what is kept</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Data</th><th>What happens</th><th>Retention</th></tr></thead>
+      <tbody>
+        <tr><td><b>Your account</b> (email, name, profile photo, user ID)</td><td>Permanently deleted</td><td>Immediately</td></tr>
+        <tr><td><b>Cloud profile &amp; device records</b></td><td>Permanently deleted</td><td>Immediately</td></tr>
+        <tr><td><b>Notes, notebooks, drawings, voice/video notes, to-dos</b> on the device</td><td>Permanently deleted from the device</td><td>Immediately</td></tr>
+        <tr><td><b>Synced note data</b> (if cloud sync was enabled)</td><td>Permanently deleted</td><td>Within 30 days of backend cleanup</td></tr>
+        <tr><td><b>Backups in your own Google Drive</b></td><td><b>Kept</b> — these live in your Drive, under your control. Delete them yourself from Google Drive.</td><td>Until you delete them</td></tr>
+        <tr><td><b>Purchase records</b> (subscriptions / one-time purchases)</td><td><b>Kept by Google Play</b>, not by us. Manage or cancel via Google Play.</td><td>Per Google's policy</td></tr>
+        <tr><td><b>Anonymous analytics &amp; crash logs</b></td><td>Not linked to your identity; retained in aggregate</td><td>Up to 14 months</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><span class="num">04</span> Deleting some data without deleting your account</h2>
+  <p>You don't have to delete your whole account to remove data:</p>
+  <ul>
+    <li>Delete an individual note, notebook or to-do at any time.</li>
+    <li>Empty <strong>Trash</strong> (Profile → Trash) to permanently remove deleted notes.</li>
+    <li><strong>Settings → Clear Trash</strong> permanently removes all trashed notes.</li>
+    <li>Turn off cloud sync/backup to stop any further data leaving your device.</li>
+  </ul>
+
+  <h2><span class="num">05</span> Cancel your subscription first</h2>
+  <p>
+    Deleting your account does not automatically cancel a Google Play subscription. Cancel it in the
+    <strong>Google Play Store → Subscriptions</strong> before deleting, to avoid further billing.
+  </p>
+
+  <footer>
+    <p>Questions? <a href="mailto:snoubsdevstudio@gmail.com">snoubsdevstudio@gmail.com</a> ·
+    See also our <a href="./">Privacy Policy</a>.</p>
+    <p>© 2026 Snoubs Dev Studio · BibliaTab Notebook for Android</p>
+  </footer>
+</div>
